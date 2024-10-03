@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/payments")
 public class PaymentAPI {
     @GetMapping
-    public String test(){
+    public String test() {
         return "test";
     }
 }
